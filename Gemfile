@@ -31,10 +31,6 @@ gem 'bootstrap', '4.0.0.alpha6'
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
-
-gem 'simple_form'
-
-gem 'devise'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
@@ -73,3 +69,26 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+
+gem 'simple_form'
+
+gem 'devise'
+
+gem 'carrierwave', '~> 2.0'
+
+gem "figaro"
+
+gem "fog-aws"
+
+gem "mini_magick"
+
+gem "carrierwave-aws"
+
+gem 'stripe'
+
+gem 'ranked-model'
+
+gem 'jquery-ui-rails'
+
+gem "font-awesome-rails"
